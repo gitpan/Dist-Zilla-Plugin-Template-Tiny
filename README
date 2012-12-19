@@ -3,7 +3,7 @@ NAME
     dist using Template::Tiny
 
 VERSION
-    version 0.01
+    version 0.02
 
 SYNOPSIS
      [Template::Tiny]

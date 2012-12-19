@@ -23,9 +23,6 @@ t/novar.t
 t/prune.t
 t/replace.t
 t/use.t
-tmp/LClHzdXpeY/source/dist.ini
-tmp/LClHzdXpeY/source/lib/DZT.pm
-tmp/LClHzdXpeY/source/lib/Foo.xxx
 xt/release/build_environment.t
 xt/release/changes.t
 xt/release/eol.t
