@@ -10,6 +10,9 @@ corpus/DZT.alt/lib/DZT.pm
 corpus/DZT.alt/lib/Foo.xxx
 corpus/DZT.prune/lib/DZT.pm
 corpus/DZT.prune/lib/Foo.pm.tt
+corpus/DZT.prune_replace/lib/DZT.pm
+corpus/DZT.prune_replace/lib/Foo.pm
+corpus/DZT.prune_replace/lib/Foo.pm.tt
 corpus/DZT.replace/lib/DZT.pm
 corpus/DZT.replace/lib/Foo.pm
 corpus/DZT.replace/lib/Foo.pm.tt
@@ -21,6 +24,7 @@ t/alt.t
 t/basic.t
 t/novar.t
 t/prune.t
+t/prune_replace.t
 t/replace.t
 t/use.t
 xt/release/build_environment.t

@@ -32,4 +32,4 @@ resources:
   bugtracker: https://github.com/plicease/Dist-Zilla-Plugin-Template-Tiny/issues
   homepage: http://search.cpan.org/dist/Dist-Zilla-Plugin-Template-Tiny/
   repository: git://github.com/plicease/Dist-Zilla-Plugin-Template-Tiny.git
-version: 0.02
+version: 0.03

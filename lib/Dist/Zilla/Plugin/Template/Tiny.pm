@@ -7,7 +7,7 @@ use Dist::Zilla::File::InMemory;
 use List::Util qw(first);
 
 # ABSTRACT: process template files in your dist using Template::Tiny
-our $VERSION = '0.02'; # VERSION
+our $VERSION = '0.03'; # VERSION
 
 
 with 'Dist::Zilla::Role::FileGatherer';
@@ -114,8 +114,8 @@ sub gather_files
         },
       );
       $self->add_file($file);
-      push @{ $self->_prune_list }, $template if $self->prune;
     }
+    push @{ $self->_prune_list }, $template if $self->prune;
   }
 }
 
@@ -192,7 +192,7 @@ Dist::Zilla::Plugin::Template::Tiny - process template files in your dist using 
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
