@@ -4,7 +4,7 @@
       "Graham Ollis <plicease@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.133380",
    "license" : [
       "perl_5"
    ],
@@ -35,7 +35,7 @@
             "Moose" : "0",
             "Template::Tiny" : "0",
             "namespace::autoclean" : "0",
-            "perl" : "v5.10.0"
+            "perl" : "5.006"
          }
       },
       "test" : {
@@ -48,15 +48,15 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/plicease/Dist-Zilla-Plugin-Template-Tiny/issues"
+         "web" : "https://github.com/plicease/dist-zilla-plugin-template-tiny/issues"
       },
-      "homepage" : "http://search.cpan.org/dist/Dist-Zilla-Plugin-Template-Tiny/",
+      "homepage" : "http://perl.wdlabs.com/Dist-Zilla-Plugin-Template-Tiny/",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/plicease/Dist-Zilla-Plugin-Template-Tiny.git",
-         "web" : "https://github.com/plicease/Dist-Zilla-Plugin-Template-Tiny"
+         "url" : "git://github.com/plicease/dist-zilla-plugin-template-tiny.git",
+         "web" : "https://github.com/plicease/dist-zilla-plugin-template-tiny"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
 

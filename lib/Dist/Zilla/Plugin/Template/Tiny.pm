@@ -1,13 +1,12 @@
 package Dist::Zilla::Plugin::Template::Tiny;
 
 use Moose;
-use v5.10;
 use Template::Tiny;
 use Dist::Zilla::File::InMemory;
 use List::Util qw(first);
 
 # ABSTRACT: process template files in your dist using Template::Tiny
-our $VERSION = '0.03'; # VERSION
+our $VERSION = '0.04'; # VERSION
 
 
 with 'Dist::Zilla::Role::FileGatherer';
@@ -182,9 +181,11 @@ __PACKAGE__->meta->make_immutable;
 
 1;
 
-
 __END__
+
 =pod
+
+=encoding UTF-8
 
 =head1 NAME
 
@@ -192,7 +193,7 @@ Dist::Zilla::Plugin::Template::Tiny - process template files in your dist using 
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -296,7 +297,7 @@ Next I use this plugin to process .js.tt files in the appropriate directory, so 
 Finally, I create a version.js.tt file
 
  if(PlugAuth === undefined) var PlugAuth = {};
- if(PlugAuth === undefined) PlugAuth.UI = {};
+ if(PlugAuth.UI === undefined) PlugAuth.UI = {};
  
  PlugAuth.UI.Name = 'PlugAuth WebUI';
  PlugAuth.UI.VERSION = '[% dzil.version %]';
@@ -316,6 +317,8 @@ and the actual version reported when I run from an installed copy.
 
 There are probably other use cases and ways to get yourself into trouble.
 
+=cut
+
 =head1 AUTHOR
 
 Graham Ollis <plicease@cpan.org>
@@ -328,4 +331,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
